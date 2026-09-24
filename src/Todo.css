@@ -1,0 +1,87 @@
+.Todo {
+    width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f4ff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.Todo h1 {
+    text-align: center;
+    color: #6a4caf;
+    margin-bottom: 25px;
+}
+
+.Todo form {
+    display: flex;
+    gap: 10px;
+}
+
+.Todo input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #c9b8e8;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.Todo input:focus {
+    border-color: #7b5fc5;
+}
+
+.Todo button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #7b5fc5;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Todo button:hover {
+    background-color: #6245aa;
+}
+
+.outerdiv {
+    margin-top: 25px;
+}
+
+.outerdiv ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.outerdiv li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+}
+
+.outerdiv li {
+    gap: 10px;
+}
+
+.outerdiv li span {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.outerdiv li span:first-of-type {
+    margin-left: auto;
+}
+
+.completedtodo {
+    text-decoration: line-through;
+    color: #999;
+    background-color: #eeeeee !important;
+}
